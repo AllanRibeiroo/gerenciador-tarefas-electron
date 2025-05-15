@@ -1,5 +1,56 @@
 * {
-    margin: 0; /* Espaçamentos externos */
-    padding: 0; /* Espaçamentos internos */
-    box-sizing: border-box; /* Tamanho da caixa */
+    margin: 0;
+    /* Espaçamentos externos */
+    padding: 0;
+    /* Espaçamentos internos */
+    box-sizing: border-box;
+    /* Tamanho da caixa */
+}
+
+body {
+
+    font-family: Arial;
+    background-color: #474747;
+    padding: 20px;
+}
+
+div {
+    background-color: rgb(149, 151, 151);
+    max-width: 400px;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 33px;
+}
+
+input {
+    border: 2px solid white;
+}
+
+.add {
+    background-color: gray;
+    font-family: Arial;
+    padding: 5px;
+    border-radius: 23px;
+
+}
+
+.remover {
+    background-color: gray;
+    font-family: Arial;
+    padding: 5px;
+    border-radius: 23px;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+li{
+    margin: 25px;
+    font-weight: bold;
+    list-style: none;
+
+    display: flex; 
+    justify-content: space-between;
+    
 }
