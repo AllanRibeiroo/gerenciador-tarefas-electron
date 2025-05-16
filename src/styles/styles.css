@@ -17,7 +17,7 @@ body {
 div {
     background-color: rgb(149, 151, 151);
     max-width: 400px;
-    margin: 60px;
+    margin: auto;
     padding: 20px;
     border-radius: 33px;
 }
@@ -37,7 +37,7 @@ input {
 .remover {
     background-color: gray;
     font-family: Arial;
-    padding: 5px;
+    padding: 6px;
     border-radius: 23px;
 }
 
@@ -49,8 +49,14 @@ li{
     margin: 25px;
     font-weight: bold;
     list-style: none;
-
+    align-items: center;
+    border-bottom: 1px solid white;
     display: flex; 
     justify-content: space-between;
     
+}
+.tarefa-completa{
+    color: aqua; /* Cor do texto */
+    text-decoration: line-through; /* Texto riscado */
+
 }
